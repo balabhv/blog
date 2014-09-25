@@ -32,3 +32,11 @@
     font-size: 18pt ;
   }
 }
+
+#gradient {
+    background-image: -moz-linear-gradient(right, rgb(119,193,194), white);
+}
+
+h1 {
+    color: red; 
+}
