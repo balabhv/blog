@@ -35,8 +35,64 @@
 
 #gradient {
     background-image: -moz-linear-gradient(right, rgb(119,193,194), white);
+    height: 60px;
 }
 
 h1 {
     color: red; 
+}
+
+.nav {
+    margin: 0px;
+    list-style: none;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    font-variant: small-caps;
+    width: auto;
+    display: block;
+    border: 3px solid white;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    color: #FFF;
+    background-color: #6C8C37;
+    margin: 5px 0px 0px;
+    text-decoration: none;
+    border-width: 0px 1px 0px 0px;
+    border-style: none solid none none;
+    border-color: -moz-use-text-color white -moz-use-text-color -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-right: 1px solid white;
+    border-image: none;
+    outline: 0px none;
+    transition: box-shadow 0.25s ease 0s;
+    height: 15px;
+    font-weight: normal;
+}
+
+.nav a:hover {
+    background: #00E;
+    color: white;
+    text-shadow: none;
+}
+
+.post {
+    margin-left: 40px;
+    margin-right: 40px;
 }
