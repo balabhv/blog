@@ -69,6 +69,7 @@ h1 {
     list-style: none;
     overflow: hidden;
     margin-bottom: 30px;
+    background-color: blue;
 }
 
 .nav li {
