@@ -7,6 +7,7 @@
 /* Make post names large. */
 .post-name {
   font-size: 24pt;
+  text-align: center;
 }
 
 /* Make post authors blue. */
@@ -34,8 +35,8 @@
 }
 
 #gradient {
-    background-image: -moz-linear-gradient(right, rgb(119,193,194), white);
-    height: 60px;
+    background-image: rgb(119,193,194);
+    height: 150px;
 }
 
 h1 {
