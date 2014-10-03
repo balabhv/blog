@@ -7,16 +7,19 @@
 /* Make post names large. */
 .post-name {
   font-size: 24pt;
+  margin-bottom: 10px;
 }
 
 /* Make post authors blue. */
 .post-author {
   color: blue;
+  margin-bottom: 10px;
 }
 
 /* Make post content green. */
 .post-content {
   color: green;
+  margin-bottom: 10px;
 }
 
 /* The below CSS gets applied on devices with small screens. */
@@ -63,7 +66,7 @@ h1 {
 }
 
 .nav li {
-    float: center;
+    float: left;
 }
 
 .nav a {
