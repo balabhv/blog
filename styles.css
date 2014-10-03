@@ -19,7 +19,7 @@
 /* Make post content green. */
 .post-content {
   color: green;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* The below CSS gets applied on devices with small screens. */
