@@ -25,6 +25,7 @@
   /* Reduce the margin. */
   body {
     margin: 0px ;
+    font-family: Arial, sans-serif;
   }
  
   /* Make the post content larger. */
@@ -62,7 +63,7 @@ h1 {
 }
 
 .nav li {
-    float: left;
+    float: center;
 }
 
 .nav a {
