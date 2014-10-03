@@ -24,6 +24,10 @@
     margin-bottom: 20px;
 }
 
+body {
+    background-color: #DEDEDE;
+}
+
 /* The below CSS gets applied on devices with small screens. */
 @media (max-width: 980px) {
  
