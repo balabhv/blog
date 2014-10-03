@@ -36,12 +36,13 @@
 #gradient {
     background-color: blue;
     height: 150px;
+    margin: 0px;
 }
 
 h1 {
     color: red; 
     text-align: center;
-    padding-top: 75px;
+    padding-top: 65px;
 }
 
 .nav {
