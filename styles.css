@@ -6,35 +6,37 @@
 
 /* Make post names large. */
 .post-name {
-  font-size: 24pt;
-  margin-bottom: 10px;
+    font-size: 24pt;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-variant: small-caps;
 }
 
 /* Make post authors blue. */
 .post-author {
-  color: blue;
-  margin-bottom: 10px;
+    color: blue;
+    margin-bottom: 10px;
 }
 
 /* Make post content green. */
 .post-content {
-  color: green;
-  margin-bottom: 20px;
+    color: green;
+    margin-bottom: 20px;
 }
 
 /* The below CSS gets applied on devices with small screens. */
 @media (max-width: 980px) {
  
   /* Reduce the margin. */
-  body {
-    margin: 0px ;
-    font-family: Arial, sans-serif;
-  }
+    body {
+        margin: 0px ;
+        font-family: Arial, sans-serif;
+    }
  
-  /* Make the post content larger. */
-  .post-content {
-    font-size: 18pt ;
-  }
+    /* Make the post content larger. */
+    .post-content {
+        font-size: 18pt ;
+    }
 }
 
 #gradient {
