@@ -42,7 +42,8 @@
     border-style: none solid none none;
     min-width: 980px;
     width: 100%;
-    left:0px;
+    left:0;
+    top: 0;
 }
 
 h1 {
